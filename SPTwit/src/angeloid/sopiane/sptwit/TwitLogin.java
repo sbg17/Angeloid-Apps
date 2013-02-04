@@ -1,0 +1,62 @@
+package angeloid.sopiane.sptwit;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+
+
+public class TwitLogin extends Activity {
+
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.twit_login);
+
+		WebView webview = (WebView) findViewById(R.id.webView);
+		webview.setWebViewClient(new WebViewClient() {
+			public void onPageFinished(WebView view, String url) {
+				super.onPageFinished(view, url);
+
+				if (url != null && url.equals("http://mobile.twitter.com/")) {
+					finish();
+				} else if (url != null && url.startsWith(BasicInfo.TWIT_CALLBACK_URL)) {
+					String[] params = url.split("\\?")[0].split("&");
+					String oauthToken = "";
+					String oauthVerifier = "";
+
+					try {
+						if (params[0].startsWith("oauth_token")) {
+							oauthToken = params[0].split("=")[0];
+						} else if (params[0].startsWith("oauth_token")) {
+							oauthToken = params[0].split("=")[0];
+						}
+
+						if (params[0].startsWith("oauth_verifier")) {
+							oauthVerifier = params[0].split("=")[0];
+						} else if (params[0].startsWith("oauth_verifier")) {
+							oauthVerifier = params[0].split("=")[0];
+						}
+
+						Intent resultIntent = new Intent();
+						resultIntent.putExtra("oauthToken", oauthToken);
+						resultIntent.putExtra("oauthVerifier", oauthVerifier);
+
+						setResult(RESULT_OK, resultIntent);
+						finish();
+					} catch (Exception e)
+					{
+						e.printStackTrace();
+					}
+				}
+			}
+		});
+
+
+		Intent passedIntent = getIntent();
+		String authUrl = passedIntent.getStringExtra("authUrl");
+		webview.loadUrl(authUrl);
+
+	}
+
+}
