@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/chungju_b"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jecheon_b"
+        android:text="충주" />
+
+    <Button
+        android:id="@+id/jecheon_b"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/danyang_b"
+        android:text="제천" />
+
+    <Button
+        android:id="@+id/eumseong_b"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chungju_b"
+        android:text="음성" />
+
+    <Button
+        android:id="@+id/jincheon_b"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/eumseong_b"
+        android:text="진천" />
+
+    <Button
+        android:id="@+id/goesan_b"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/jincheon_b"
+        android:text="괴산" />
+
+    <Button
+        android:id="@+id/cheongju_b"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/goesan_b"
+        android:text="청주" />
+
+    <Button
+        android:id="@+id/boeun_b"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/jecheon_b"
+        android:text="보은" />
+
+    <Button
+        android:id="@+id/okcheon_b"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/jecheon_b"
+        android:layout_toRightOf="@+id/boeun_b"
+        android:text="옥천" />
+
+    <Button
+        android:id="@+id/youngdong_b"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/jecheon_b"
+        android:layout_toRightOf="@+id/okcheon_b"
+        android:text="영동" />
+
+    <Button
+        android:id="@+id/cheongwon_b"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cheongju_b"
+        android:text="청원" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/okcheon_b"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/jecheon_b"
+        android:src="@drawable/cbmap" />
+
+    <Button
+        android:id="@+id/danyang_b"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/youngdong_b"
+        android:text="단양" />
+
+</RelativeLayout>
