@@ -1,0 +1,19 @@
+#!/system/bin/sh
+#==============================================================================
+# DreamNarae Save
+# Version 2.5
+# Made by Rie
+# Edit by Sopiane(http://www.sirospace.com)
+# Colorful Harmony Team- Angeloid Team, inc! 
+# http://www.sirospace.info
+# DO NOT EDIT THIS SCRIPT!
+#==============================================================================
+# vm
+echo 50 > /proc/sys/vm/swappiness;
+echo 3072 > /proc/sys/vm/min_free_kbytes;
+echo 3072 > /proc/sys/vm/dirty_expire_centisecs;
+echo 50 > /proc/sys/vm/vfs_cache_pressure;
+echo 50 > /proc/sys/vm/swappiness
+echo 3072 > /proc/sys/vm/min_free_kbytes
+echo 3072 > /proc/sys/vm/dirty_expire_centisecs
+echo 50 > /proc/sys/vm/vfs_cache_pressure

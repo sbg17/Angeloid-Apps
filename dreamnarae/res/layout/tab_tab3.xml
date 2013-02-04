@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright 2009 - 2013 Colorful Harmony Team- Angeloid Team, Inc
+
+   Licensed Under The Apache License, Version 2.0 (The "License");
+   You May Not Use This File Except In Compliance With The License.
+   You May Obtain A Copy Of The License At
+
+      Http://Www.Apache.Org/Licenses/License-2.0
+
+   Unless Required By Applicable Law Or Agreed To In Writing, Software
+   Distributed Under The License Is Distributed On An "As Is" Basis,
+   Without Warranties Or Conditions Of Any Kind, Either Express Or Implied.
+   See The License For The Specific Language Governing Permissions And Limitations Under The License
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tab_tab3_appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/color01" />
+
+    <TextView
+        android:id="@+id/tab_tab3_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tab_tab3_appname"
+        android:text="@string/company"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/color02" />
+
+    <TextView
+        android:id="@+id/tab_tab3_rinne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab_tab3_developer"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tab_tab3_rinne" />
+
+    <TextView
+        android:id="@+id/tab_tab3_sopiane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab_tab3_rinne"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tab_tab3_sopiane" />
+
+    <TextView
+        android:id="@+id/tab_tab3_primes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab_tab3_sopiane"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tab_tab3_primes" />
+
+    <TextView
+        android:id="@+id/tab_tab3_lonelysheep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab_tab3_primes"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tab_tab3_lonelysheep" />
+
+    <TextView
+        android:id="@+id/tab_tab3_rie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab_tab3_lonelysheep"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tab_tab3_rie" />
+
+    <TextView
+        android:id="@+id/tab_tab3_iren"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab_tab3_rie"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tab_tab3_iren" />
+
+    <TextView
+        android:id="@+id/tab_tab3_ayana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab_tab3_iren"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tab_tab3_ayana" />
+
+    <TextView
+        android:id="@+id/tab_tab3_neon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab_tab3_ayana"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tab_tab3_neon" />
+
+    <TextView
+        android:id="@+id/tab_tab3_russia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab_tab3_neon"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tab_tab3_russia" />
+
+    <TextView
+        android:id="@+id/tab_tab3_senless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab_tab3_russia"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tab_tab3_senless" />
+
+    <TextView
+        android:id="@+id/tab_tab3_developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab_tab3_company"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tab_tab3_developer"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+         >
+
+        <Button
+            android:id="@+id/tab_tab3_bug_report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_tab3_bug_report" />
+
+        <Button
+            android:id="@+id/tab_tab3_donate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_tab3_donate" />
+    </TableRow>
+
+</RelativeLayout>

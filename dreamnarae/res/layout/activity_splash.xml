@@ -1,0 +1,20 @@
+<!--  
+/* Copyright 2009 - 2013 Colorful Harmony Team- Angeloid Team, Inc
+*
+*   Licensed Under The Apache License, Version 2.0 (The "License");
+ *  You May Not Use This File Except In Compliance With The License.
+*   You May Obtain A Copy Of The License At
+*
+*       Http://Www.Apache.Org/Licenses/License-2.0
+*
+*   Unless Required By Applicable Law Or Agreed To In Writing, Software
+*   Distributed Under The License Is Distributed On An "As Is" Basis,
+  * Without Warranties Or Conditions Of Any Kind, Either Express Or Implied.
+  * See The License For The Specific Language Governing Permissions And
+*   Limitations Under The License. */
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splash_1"
+    android:id="@+id/llsplash" />

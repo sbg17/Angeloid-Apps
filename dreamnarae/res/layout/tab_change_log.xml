@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright 2009 - 2013 Colorful Harmony Team- Angeloid Team, Inc
+*
+*   Licensed Under The Apache License, Version 2.0 (The "License");
+ *  You May Not Use This File Except In Compliance With The License.
+*   You May Obtain A Copy Of The License At
+*
+*       Http://Www.Apache.Org/Licenses/License-2.0
+*
+*   Unless Required By Applicable Law Or Agreed To In Writing, Software
+*   Distributed Under The License Is Distributed On An "As Is" Basis,
+ * Without Warranties Or Conditions Of Any Kind, Either Express Or Implied.
+ * See The License For The Specific Language Governing Permissions And
+*   Limitations Under The License. */ -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tab_change_spicaversion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab_change_builddate"
+        android:text="@string/spicaversion"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/color01" />
+
+    <TextView
+        android:id="@+id/tab_change_builddate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tab_change_appversion"
+        android:text="@string/builddate"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/color02" />
+
+    <TextView
+        android:id="@+id/tab_change_miracleversion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab_change_spicaversion"
+        android:text="@string/miracleversion"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/color02" />
+
+    <TextView
+        android:id="@+id/tab_change_saveversion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab_change_miracleversion"
+        android:text="@string/saveversion"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/color03" />
+
+    <TextView
+        android:id="@+id/tab_change_prevversion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab_change_saveversion"
+        android:text="@string/prevversion"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/color04" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab_change_prevversion"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tab_change_updateapp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView7"
+        android:text="@string/updateapp1"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tab_change_updateapp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab_change_updateapp1"
+        android:text="@string/updateapp2"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tab_change_updateapp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab_change_updateapp2"
+        android:text="@string/updateapp3"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tab_change_updateapp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab_change_updateapp3"
+        android:text="@string/updateapp4"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tab_change_updateapp5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab_change_updateapp4"
+        android:text="@string/updateapp5"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tab_change_updateapp6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab_change_updateapp5"
+        android:text="@string/updateapp6"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tab_change_updateapp7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab_change_updateapp6"
+        android:text="@string/updateapp7"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tab_change_updateapp8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab_change_updateapp7"
+        android:text="@string/updateapp8"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tab_change_thankyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab_change_updateapp8"
+        android:layout_centerHorizontal="true"
+        android:text="@string/thankyou"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/color06" />
+
+    <TextView
+        android:id="@+id/tab_change_appversion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/appversion"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/color01" />
+
+</RelativeLayout>

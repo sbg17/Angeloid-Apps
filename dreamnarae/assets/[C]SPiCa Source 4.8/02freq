@@ -1,0 +1,65 @@
+#!/system/bin/sh
+#==============================================================================
+# DreamNarae SPiCa
+# Version 4.8
+# Made by Sopiane
+# Edit by Sopiane(http://www.sirospace.com)
+# Colorful Harmony Team- Angeloid Team, inc! 
+# http://www.sirospace.info
+# DO NOT EDIT THIS SCRIPT!
+#==============================================================================
+#CPU LEVEL
+echo "5" > /sys/devices/system/cpu/cpu0/cpufreq/deepsleep_cpulevel
+echo "2" > /sys/devices/system/cpu/cpu0/cpufreq/deepsleep_buslevel
+echo "3" > /sys/module/cpuidle/parameters/enable_mask
+echo "1" > /sys/devices/system/cpu/sched_mc_power_savings
+echo "5" > /sys/devices/system/cpu/cpu0/cpufreq/deepsleep_cpulevel;
+echo "2" > /sys/devices/system/cpu/cpu0/cpufreq/deepsleep_buslevel;
+echo "3" > /sys/module/cpuidle/parameters/enable_mask;
+echo "1" > /sys/devices/system/cpu/sched_mc_power_savings;
+
+#cpufreq smooth
+echo "2" > /sys/devices/system/cpu/cpu0/cpufreq/smooth_target
+echo "2" > /sys/devices/system/cpu/cpu1/cpufreq/smooth_target
+echo "2" > /sys/devices/system/cpu/cpu2/cpufreq/smooth_target
+echo "2" > /sys/devices/system/cpu/cpu3/cpufreq/smooth_target
+echo "1" > /sys/devices/system/cpu/cpu0/cpufreq/smooth_offset
+echo "1" > /sys/devices/system/cpu/cpu1/cpufreq/smooth_offset
+echo "1" > /sys/devices/system/cpu/cpu2/cpufreq/smooth_offset
+echo "1" > /sys/devices/system/cpu/cpu3/cpufreq/smooth_offset
+echo "1" > /sys/devices/system/cpu/cpu0/cpufreq/smooth_step
+echo "1" > /sys/devices/system/cpu/cpu1/cpufreq/smooth_step
+echo "1" > /sys/devices/system/cpu/cpu2/cpufreq/smooth_step
+echo "1" > /sys/devices/system/cpu/cpu3/cpufreq/smooth_step
+echo "2" > /sys/devices/system/cpu/cpu0/cpufreq/smooth_target;
+echo "2" > /sys/devices/system/cpu/cpu1/cpufreq/smooth_target;
+echo "2" > /sys/devices/system/cpu/cpu2/cpufreq/smooth_target;
+echo "2" > /sys/devices/system/cpu/cpu3/cpufreq/smooth_target;
+echo "1" > /sys/devices/system/cpu/cpu0/cpufreq/smooth_offset;
+echo "1" > /sys/devices/system/cpu/cpu1/cpufreq/smooth_offset;
+echo "1" > /sys/devices/system/cpu/cpu2/cpufreq/smooth_offset;
+echo "1" > /sys/devices/system/cpu/cpu3/cpufreq/smooth_offset;
+echo "1" > /sys/devices/system/cpu/cpu0/cpufreq/smooth_step;
+echo "1" > /sys/devices/system/cpu/cpu1/cpufreq/smooth_step;
+echo "1" > /sys/devices/system/cpu/cpu2/cpufreq/smooth_step;
+echo "1" > /sys/devices/system/cpu/cpu3/cpufreq/smooth_step;
+
+#hotplug
+echo "on" > /sys/devices/virtual/misc/second_core/hotplug_on
+echo 25 > /sys/module/pm_hotplug/parameters/loadl
+echo 70 > /sys/module/pm_hotplug/parameters/loadh
+echo 45 > /sys/module/pm_hotplug/parameters/loadl_scroff
+echo 90 > /sys/module/pm_hotplug/parameters/loadh_scroff
+echo 500000 > /sys/module/pm_hotplug/parameters/freq_cpu1on
+echo 200 > /sys/module/pm_hotplug/parameters/rate
+echo 400 > /sys/module/pm_hotplug/parameters/rate_cpuon
+echo 800 > /sys/module/pm_hotplug/parameters/rate_scroff
+echo "on" > /sys/devices/virtual/misc/second_core/hotplug_on;
+echo 25 > /sys/module/pm_hotplug/parameters/loadl;
+echo 70 > /sys/module/pm_hotplug/parameters/loadh;
+echo 45 > /sys/module/pm_hotplug/parameters/loadl_scroff;
+echo 90 > /sys/module/pm_hotplug/parameters/loadh_scroff;
+echo 500000 > /sys/module/pm_hotplug/parameters/freq_cpu1on;
+echo 200 > /sys/module/pm_hotplug/parameters/rate;
+echo 400 > /sys/module/pm_hotplug/parameters/rate_cpuon;
+echo 800 > /sys/module/pm_hotplug/parameters/rate_scroff;

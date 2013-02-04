@@ -1,0 +1,25 @@
+<!--
+   Copyright 2009 - 2013 Colorful Harmony Team- Angeloid Team, Inc
+
+   Licensed Under The Apache License, Version 2.0 (The "License");
+   You May Not Use This File Except In Compliance With The License.
+   You May Obtain A Copy Of The License At
+
+      Http://Www.Apache.Org/Licenses/License-2.0
+
+   Unless Required By Applicable Law Or Agreed To In Writing, Software
+   Distributed Under The License Is Distributed On An "As Is" Basis,
+   Without Warranties Or Conditions Of Any Kind, Either Express Or Implied.
+   See The License For The Specific Language Governing Permissions And Limitations Under The License
+-->
+<resources>
+
+    <!--
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+
+</resources>

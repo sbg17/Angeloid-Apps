@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright 2009 - 2013 Colorful Harmony Team- Angeloid Team, Inc
+
+   Licensed Under The Apache License, Version 2.0 (The "License");
+   You May Not Use This File Except In Compliance With The License.
+   You May Obtain A Copy Of The License At
+
+      Http://Www.Apache.Org/Licenses/License-2.0
+
+   Unless Required By Applicable Law Or Agreed To In Writing, Software
+   Distributed Under The License Is Distributed On An "As Is" Basis,
+   Without Warranties Or Conditions Of Any Kind, Either Express Or Implied.
+   See The License For The Specific Language Governing Permissions And Limitations Under The License
+-->
+<resources>
+
+    <!-- Default Resource -->
+    <string name="app_name">DreamNarae (Root)</string>
+    <string name="company">Angeloid Team, inc</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- Tab 1 -->
+    <string name="tab_tab1_welcome">Welcome to DreamNarae!</string>
+    <string name="tab_tab1_textview2">You can enjoy DreamNarae!</string>
+
+    <!-- Tab 2 -->
+    <string name="tab_tab2_install">Install</string>
+    <string name="tab_tab2_noroot">Your Device is not root device. so it is impossible to apply DremNarae</string>
+    <string name="tab_tab2_busybox">Your Device do not have busybox.  so it is impossible to apply DreamNarae</string>
+    <string name="tab_tab2_installed">Applied because the flag file has been identified.</string>
+    <string name="tab_tab2_already">Has already been installed.</string>
+    <string name="tab_tab2_reboot_ok">Auto Reboot</string>
+    <string name="tab_tab2_reboot_no">Not Reboot</string>
+
+    <!-- Tab 2 - Requisite -->
+    <string name="tab_tab2_requisite">Install Requisite</string>
+    <string name="tab_tab2_requisite_supersu">Install SuperSU</string>
+    <string name="tab_tab2_requisite_busybox">Install Busybox</string>
+
+    <!-- Tab 2 - Miracle -->
+    <string name="tab_tab2_miracle">DreamNarae Miracle</string>
+    <string name="tab_tab2_miracle_small">Miracle</string>
+
+    <!-- Tab 2 - SPiCa -->
+    <string name="tab_tab2_spica">DreamNarae SPiCa</string>
+    <string name="tab_tab2_spica_small">SPiCa</string>
+
+    <!-- Tab 2 - Save -->
+    <string name="tab_tab2_save">DreamNarae Save</string>
+    <string name="tab_tab2_save_small">Save</string>
+
+    <!-- Tab 2 - Prev -->
+    <string name="tab_tab2_prev">DreamNarae Prev</string>
+    <string name="tab_tab2_prev_small">Prev</string>
+
+    <!-- Tab 2 - Delete -->
+    <string name="tab_tab2_delete">Delete DreamNarae</string>
+    <string name="tab_tab2_delete_small">Delete</string>
+
+    <!-- Tab 2 - Res -->
+    <string name="tab_tab2_install_running_1">Start to install DreamNarae!</string>
+    <string name="tab_tab2_delete_running_1">Start to delete DreamNarae!</string>
+    <string name="tab_tab2_error">SOME ERROR(S) IS DIRECTED!</string>
+
+    <!-- Tab 3 -->
+    <string name="tab_tab3_developer">Developer</string>
+    <string name="tab_tab3_rinne">Aoi Rinne(Ji-yeon, Jung)</string>
+    <string name="tab_tab3_sopiane">Sopiane(Dong-Gil, Seo)</string>
+    <string name="tab_tab3_primes">Primes</string>
+    <string name="tab_tab3_lonelysheep">LonelySheep</string>
+    <string name="tab_tab3_rie">Rie(Eun-hee, Lee)</string>
+    <string name="tab_tab3_iren">Iren(Jung-yeon, Lee)</string>
+    <string name="tab_tab3_ayana">Ayana(Eun-jung, Lee)</string>
+    <string name="tab_tab3_senless">Senless</string>
+    <string name="tab_tab3_russia">Russia</string>
+    <string name="tab_tab3_neon">NEON</string>
+    <string name="tab_tab3_bug_report">Bug Report</string>
+    <string name="tab_tab3_donate">Donate</string>
+    <string name="tab_tab3_license">License</string>
+
+    <!-- Tab names -->
+    <string name="main">Main</string>
+    <string name="cl">Update Log</string>
+    <string name="check">User Check</string>
+    <string name="devinfo">Developer Info</string>
+    <string name="spicatab">DreamNarae SPiCa</string>
+    <string name="miracletab">DreamNarae Miracle</string>
+    <string name="savetab">DreamNarae Save</string>
+    <string name="prevtab">DreamNarae Prev</string>
+    <string name="deletetab">Delete DreamNarae</string>
+    <string name="supporttab">Support</string>
+
+    <!-- ChangeLog -->
+    <string name="tab_changelog">Update Log</string>
+
+    <!-- changelog update 1.2 -->
+    <string name="appversion">Version 1.4</string>
+    <string name="builddate">February 4, 2013</string>
+    <string name="spicaversion">DreamNarae SPiCa 4.8</string>
+    <string name="miracleversion">DreamNarae Miracle 2.0+</string>
+    <string name="saveversion">DreamNarae Save 2.5</string>
+    <string name="prevversion">DreamNarae Prev 1.2</string>
+    <string name="updateapp1">[Tweak] Re-Build All Tweak</string>
+    <string name="updateapp2">[Tweak] Delete some Script Files</string>
+    <string name="updateapp3">[Youtube] Edit Movie and add Korean sub</string>
+    <string name="updateapp4">[Application] Warnings added at startup</string>
+    <string name="updateapp5">[Application] Useless source cleanup</string>
+    <string name="updateapp6">[Application] Save issues resolved</string>
+    <string name="updateapp7">[Application] Valentine Day Anniversary Special Layout Lovely DreamNarae apply</string>
+    <string name="updateapp8">[Application] install-recovery.sh automatic backup</string>
+    
+    <string name="thankyou">Thanks You!</string>
+
+    <!-- - User Check -->
+    <string name="tab_usercheck">Ready to use DreamNarae</string>
+    <string name="tab_usercheck_su">SuperUser is Available!</string>
+    <string name="tab_usercheck_suneed">Need SuperUser</string>
+    <string name="tab_usercheck_prevversion">Old Flag File(Need to Delete!)</string>
+    <string name="tab_usercheck_busybox">Busybox Binary</string>
+    <string name="tab_usercheck_internet">Wireless / Mobile Network</string>
+    <string name="networkerror">Network Error!</string>
+    <string name="tab_usercheck_oldplagdelete">DreamNarae can be used.</string>
+    <!-- Support -->
+    <string name="tweakpriority">Tweak priority</string>
+    <string name="tweakpriority_dnspica">DreamNarae SPiCa : Performance and reliability</string>
+    <string name="tweakpriority_dnmiracle">DreamNarae Miracle : Only Performance (have adverse effects)</string>
+    <string name="tweakpriority_dnsave">DreamNarae Save : Only Battery (performance penalty)</string>
+    <string name="tweakpriority_dnprev">DreamNarae Prev : To maintain stability. </string>
+    <string name="howdoiapply">How do I apply?</string>
+    <string name="howdoiapply_first">First, Choose the version you want to apply.</string>
+    <string name="howdoiapply_second">Second, the connection to the Internet, auto reboot or Do not reboot press and hold.</string>
+    <string name="howdoiapply_third">Third, The application is complete, reboot your device</string>
+    <string name="howdoiapply_easy">It is easy?</string>
+
+    <!-- AlertMessage -->
+    <string name="tab_tab1_alerttitle">Warning!</string>
+    <string name="tab_tab1_alertmessage">That occurs in using the DreamNarae disadvantage Publisher Angeloid Team, inc shall not be held liable. Do you agree?</string>
+    <string name="tab_tab1_alertok">Accept</string>
+    <string name="tab_tab1_alertno">Reject</string>
+
+</resources>

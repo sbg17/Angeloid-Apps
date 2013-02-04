@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  
+/* Copyright 2009 - 2013 Colorful Harmony Team- Angeloid Team, Inc
+*
+*   Licensed Under The Apache License, Version 2.0 (The "License");
+ *  You May Not Use This File Except In Compliance With The License.
+*   You May Obtain A Copy Of The License At
+*
+*       Http://Www.Apache.Org/Licenses/License-2.0
+*
+*   Unless Required By Applicable Law Or Agreed To In Writing, Software
+*   Distributed Under The License Is Distributed On An "As Is" Basis,
+  * Without Warranties Or Conditions Of Any Kind, Either Express Or Implied.
+  * See The License For The Specific Language Governing Permissions And
+*   Limitations Under The License. */
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/tab_tab2_spica_usercheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tab_tab2_spica_running"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/not_apply" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/tab_tab2_spica_reboot_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_tab2_reboot_no" />
+
+        <Button
+            android:id="@+id/tab_tab2_spica_reboot_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_tab2_reboot_ok" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tab_tab2_spica_running"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tableRow1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tab_tab2_install_running_1" />
+
+</RelativeLayout>

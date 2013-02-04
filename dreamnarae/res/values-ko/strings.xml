@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright 2009 - 2013 Colorful Harmony Team- Angeloid Team, Inc
+
+   Licensed Under The Apache License, Version 2.0 (The "License");
+   You May Not Use This File Except In Compliance With The License.
+   You May Obtain A Copy Of The License At
+
+      Http://Www.Apache.Org/Licenses/License-2.0
+
+   Unless Required By Applicable Law Or Agreed To In Writing, Software
+   Distributed Under The License Is Distributed On An "As Is" Basis,
+   Without Warranties Or Conditions Of Any Kind, Either Express Or Implied.
+   See The License For The Specific Language Governing Permissions And Limitations Under The License
+-->
+<resources>
+
+    <!-- Default Resource -->
+    <string name="app_name">드림나래 (Root)</string>
+    <string name="company">Angeloid Team, inc</string>
+    <string name="menu_settings">설정</string>
+
+    <!-- Tab 1 -->
+    <string name="tab_tab1_welcome">드림나래에 어서오세요!</string>
+    <string name="tab_tab1_textview2">이제, 드림나래를 즐겨보세요!</string>
+
+    <!-- Tab 2 -->
+    <string name="tab_tab2_install">설치</string>
+    <string name="tab_tab2_noroot">사용자의 기기가 루팅이 되있지 않아 드림나래 설치가 불가능합니다.</string>
+    <string name="tab_tab2_busybox">사용자의 기기가 비지박스가 없어 드림나래 설치가 불가능합니다.</string>
+    <string name="tab_tab2_installed">플래그 파일이 있으므로 적용이 확인되었습니다!</string>
+    <string name="tab_tab2_already">이미 설치되었습니다.</string>
+    <string name="tab_tab2_reboot_ok">자동 재부팅</string>
+    <string name="tab_tab2_reboot_no">재부팅 안함</string>
+
+    <!-- Tab 2 - Requisite -->
+    <string name="tab_tab2_requisite">필수요소 설치</string>
+    <string name="tab_tab2_requisite_supersu">SuperSU 설치</string>
+    <string name="tab_tab2_requisite_busybox">Busybox Installer 설치</string>
+
+    <!-- Tab 2 - Miracle -->
+    <string name="tab_tab2_miracle">드림나래 Miracle</string>
+    <string name="tab_tab2_miracle_small">Miracle</string>
+
+    <!-- Tab 2 - SPiCa -->
+    <string name="tab_tab2_spica">드림나래 SPiCa</string>
+    <string name="tab_tab2_spica_small">SPiCa</string>
+
+    <!-- Tab 2 - Save -->
+    <string name="tab_tab2_save">드림나래 Save</string>
+    <string name="tab_tab2_save_small">Save</string>
+
+    <!-- Tab 2 - Delete -->
+    <string name="tab_tab2_delete">드림나래 삭제</string>
+    <string name="tab_tab2_delete_small">Delete</string>
+
+    <!-- Tab 2 - Prev -->
+    <string name="tab_tab2_prev">드림나래 Prev</string>
+    <string name="tab_tab2_prev_small">Prev</string>
+
+    <!-- Tab 2 - Res -->
+    <string name="tab_tab2_install_running_1">드림나래를 설치할 준비가 되었습니다!</string>
+    <string name="tab_tab2_delete_running_1">드림나래를 삭제할 준비가 되었습니다!</string>
+    <string name="tab_tab2_error">오류가 발견되어 드림나래를 적용할 수 없습니다!</string>
+
+    <!-- Tab 3 -->
+    <string name="tab_tab3_developer">개발자</string>
+    <string name="tab_tab3_rinne">린네(Ji-yeon, Jung)</string>
+    <string name="tab_tab3_sopiane">소피아네(Dong-Gil, Seo)</string>
+    <string name="tab_tab3_primes">Primes</string>
+    <string name="tab_tab3_lonelysheep">LonelySheep</string>
+    <string name="tab_tab3_rie">리에(Eun-hee, Lee)</string>
+    <string name="tab_tab3_iren">아이렌(Jung-yeon, Lee)</string>
+    <string name="tab_tab3_ayana">아야나(Eun-jung, Lee)</string>
+    <string name="tab_tab3_senless">Senless</string>
+    <string name="tab_tab3_russia">러시아</string>
+    <string name="tab_tab3_neon">NEON</string>
+    <string name="tab_tab3_bug_report">버그 전송</string>
+    <string name="tab_tab3_donate">후원</string>
+    <string name="tab_tab3_license">라이센스</string>
+
+    <!-- Tab names -->
+    <string name="main">메인</string>
+    <string name="cl">업데이트 내역</string>
+    <string name="check">사용자 확인</string>
+    <string name="devinfo">개발자 정보</string>
+    <string name="spicatab">드림나래 SPiCa</string>
+    <string name="miracletab">드림나래 Miracle</string>
+    <string name="savetab">드림나래 Save</string>
+    <string name="prevtab">드림나래 Prev</string>
+    <string name="deletetab">드림나래 삭제</string>
+    <string name="supporttab">도움말</string>
+
+    <!-- - User Check -->
+    <string name="tab_usercheck">사용자 확인</string>
+    <string name="tab_usercheck_su">루트 권한이 있습니다!</string>
+    <string name="tab_usercheck_suneed">루트 권한이 필요합니다!</string>
+    <string name="tab_usercheck_prevversion">이전 플래그 파일(삭제가 필요합니다!)</string>
+    <string name="tab_usercheck_busybox">Busybox Binary</string>
+    <string name="tab_usercheck_internet">WI-FI 또는 모바일 인터넷</string>
+    <string name="networkerror">인터넷이 필요합니다!</string>
+    <string name="tab_usercheck_oldplagdelete">드림나래 사용이 가능합니다!</string>
+
+    <!-- ChangeLog -->
+    <string name="tab_changelog">업데이트 내역</string>
+
+    <!-- changelog update 1.2 -->
+    <string name="appversion">버전 1.4</string>
+    <string name="builddate">2013년 2월 4일</string>
+    <string name="spicaversion">드림나래 SPiCa 4.8</string>
+    <string name="miracleversion">드림나래 Miracle 2.0+</string>
+    <string name="saveversion">드림나래 Save 2.5</string>
+    <string name="prevversion">드림나래 Prev 1.2</string>
+    <string name="updateapp1">[트윅] 모든 트윅 재빌드</string>
+    <string name="updateapp2">[트윅] 스크립트 파일 일부 삭제</string>
+    <string name="updateapp3">[유투브] 영상 수정 및 한국어 자막 추가</string>
+    <string name="updateapp4">[어플리케이션] 시작시 경고문 추가</string>
+    <string name="updateapp5">[어플리케이션] 필요없는 소스 정리</string>
+    <string name="updateapp6">[어플리케이션] Save 이슈 해결</string>
+    <string name="updateapp7">[어플리케이션] 발렌타인데이 기념 특별 레이아웃 러블리 드림나래 적용</string>
+    <string name="updateapp8">[어플리케이션] install-recovery.sh 자동 백업</string>
+    <string name="thankyou">감사합니다!</string>
+
+    <!-- Support -->
+    <string name="tweakpriority">트윅 우선순위</string>
+    <string name="tweakpriority_dnspica">드림나래 SPiCa : 성능과 안정성</string>
+    <string name="tweakpriority_dnmiracle">드림나래 Miracle : 오직 성능 (부작용이 있습니다)</string>
+    <string name="tweakpriority_dnsave">드림나래 Save : 오직 배터리 (성능이 손실됩니다)</string>
+    <string name="tweakpriority_dnprev">드림나래 Prev : 안정성을 더 유지합니다.</string>
+    <string name="howdoiapply">어떻게 적용하나요?</string>
+    <string name="howdoiapply_first">첫번째, 너가 적용할 버전을 고른다.</string>
+    <string name="howdoiapply_second">두번째, 인터넷에 연결한 상태로 자동 재부팅 또는 재부팅 안함 을 누른다.</string>
+    <string name="howdoiapply_third">세번째, 적용이 완료되면 재부팅을 한다.</string>
+    <string name="howdoiapply_easy">참 쉽죠?</string>
+
+    <!-- AlertMessage -->
+    <string name="tab_tab1_alerttitle">경고!</string>
+    <string name="tab_tab1_alertmessage">드림나래를 사용함에 있어 발생하는 불이익은 제작사 Angeloid Team, inc가 책임지지 않습니다. 이에 동의하십니까?</string>
+    <string name="tab_tab1_alertok">동의</string>
+    <string name="tab_tab1_alertno">거부</string>
+
+</resources>

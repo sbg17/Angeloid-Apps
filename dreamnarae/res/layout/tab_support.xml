@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tab_support_tweakpriority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tweakpriority"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/color01" />
+
+    <TextView
+        android:id="@+id/tab_support_tweakpriority_dnspica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab_support_tweakpriority"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tweakpriority_dnspica" />
+
+    <TextView
+        android:id="@+id/tab_support_tweakpriority_dnmiracle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tab_support_tweakpriority_dnspica"
+        android:text="@string/tweakpriority_dnmiracle" />
+
+    <TextView
+        android:id="@+id/tab_support_tweakpriority_dnsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tab_support_tweakpriority_dnmiracle"
+        android:text="@string/tweakpriority_dnsave" />
+
+    <TextView
+        android:id="@+id/tab_support_tweakpriority_dnprev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tab_support_tweakpriority_dnsave"
+        android:text="@string/tweakpriority_dnprev" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tab_support_tweakpriority_dnprev"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tab_support_howdioapply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView6"
+        android:text="@string/howdoiapply"
+        android:textColor="@color/color02"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tab_support_howdioapply_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tab_support_howdioapply"
+        android:text="@string/howdoiapply_first" />
+
+    <TextView
+        android:id="@+id/tab_support_howdioapply_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tab_support_howdioapply_first"
+        android:text="@string/howdoiapply_second" />
+
+    <TextView
+        android:id="@+id/tab_support_howdioapply_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tab_support_howdioapply_second"
+        android:text="@string/howdoiapply_third" />
+
+    <TextView
+        android:id="@+id/tab_support_howdioapply_easy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tab_support_howdioapply_third"
+        android:text="@string/howdoiapply_easy"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/color03" />
+
+</RelativeLayout>
