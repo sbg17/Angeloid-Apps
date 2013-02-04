@@ -175,10 +175,6 @@ public class Prev_Main extends Fragment {
 						prev.append("rm /system/etc/init.d/04zippv;");
 						prev.append("rm /system/etc/init.d/01iopv;");
 						prev.append("rm /system/etc/init.d/02freqpv;");
-						
-						// Create Bakcup "install-recovery.sh"
-						prev.append("mkdir /sdcard/dreamnarae/backup;");
-						prev.append("cat /system/etc/install-recovery.sh > /sdcard/dreamnarae/backup/install-recovery.sh;");
 
 						// Copy Prev Files to /system/
 						prev.append("cat /data/data/angeloid.dreamnarae/files/00proppv > /system/etc/init.d/00proppv;");
@@ -312,10 +308,6 @@ public class Prev_Main extends Fragment {
 						prev2.append("rm /system/etc/init.d/04zippv;");
 						prev2.append("rm /system/etc/init.d/01iopv;");
 						prev2.append("rm /system/etc/init.d/02freqpv;");
-
-						// Create Bakcup "install-recovery.sh"
-						prev2.append("mkdir /sdcard/dreamnarae/backup;");
-						prev2.append("cat /system/etc/install-recovery.sh > /sdcard/dreamnarae/backup/install-recovery.sh;");
 						
 						// Copy Prev Files to /system/
 						prev2.append("cat /data/data/angeloid.dreamnarae/files/00proppv > /system/etc/init.d/00proppv;");

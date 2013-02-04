@@ -42,7 +42,7 @@ public class Update_Main extends Fragment {
 		updateapp5 = (TextView) root.findViewById(R.id.tab_change_updateapp5);
 		updateapp6 = (TextView) root.findViewById(R.id.tab_change_updateapp6);
 		updateapp7 = (TextView) root.findViewById(R.id.tab_change_updateapp7);
-		updateapp8 = (TextView) root.findViewById(R.id.tab_change_updateapp8);
+	//	updateapp8 = (TextView) root.findViewById(R.id.tab_change_updateapp8);
 		thankyou = (TextView) root.findViewById(R.id.tab_change_thankyou);
 		appversion.setTypeface(Tab_MainActivity.Fonts.THEOREM);
 		builddate.setTypeface(Tab_MainActivity.Fonts.THEOREM);
@@ -57,7 +57,7 @@ public class Update_Main extends Fragment {
 		updateapp5.setTypeface(Tab_MainActivity.Fonts.THEOREM);
 		updateapp6.setTypeface(Tab_MainActivity.Fonts.THEOREM);
 		updateapp7.setTypeface(Tab_MainActivity.Fonts.THEOREM);
-		updateapp8.setTypeface(Tab_MainActivity.Fonts.THEOREM);
+	//	updateapp8.setTypeface(Tab_MainActivity.Fonts.THEOREM);
 		thankyou.setTypeface(Tab_MainActivity.Fonts.THEOREM);
 		return root;
 	}

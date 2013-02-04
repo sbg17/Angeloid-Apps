@@ -174,9 +174,6 @@ public class Save_Main extends Fragment {
 						save.append("rm /system/etc/init.d/01iopv;");
 						save.append("rm /system/etc/init.d/02freqpv;");
 						
-						// Create Bakcup "install-recovery.sh"
-						save.append("mkdir /sdcard/dreamnarae/backup;");
-						save.append("cat /system/etc/install-recovery.sh > /sdcard/dreamnarae/backup/install-recovery.sh;");
 
 						// Copy save Files to /system/
 						save.append("cat /data/data/angeloid.dreamnarae/files/00sp > /system/etc/init.d/00sp;");
@@ -310,10 +307,6 @@ public class Save_Main extends Fragment {
 						save2.append("rm /system/etc/init.d/01iopv;");
 						save2.append("rm /system/etc/init.d/02freqpv;");
 						
-						// Create Bakcup "install-recovery.sh"
-						save2.append("mkdir /sdcard/dreamnarae/backup;");
-						save2.append("cat /system/etc/install-recovery.sh > /sdcard/dreamnarae/backup/install-recovery.sh;");
-
 						// Copy save Files to /system/
 						save2.append("cat /data/data/angeloid.dreamnarae/files/00sp > /system/etc/init.d/00sp;");
 						save2.append("cat /data/data/angeloid.dreamnarae/files/01v > /system/etc/init.d/01v;");

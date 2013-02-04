@@ -171,9 +171,6 @@ public class SPiCa_Main extends Fragment {
 						spica.append("rm /system/etc/init.d/01iopv;");
 						spica.append("rm /system/etc/init.d/02freqpv;");
 
-						// Create Bakcup "install-recovery.sh"
-						spica.append("mkdir /sdcard/dreamnarae/backup;");
-						spica.append("cat /system/etc/install-recovery.sh > /sdcard/dreamnarae/backup/install-recovery.sh;");
 						
 						// Copy spica Files to /system/
 						spica.append("cat /data/data/angeloid.dreamnarae/files/00prop > /system/etc/init.d/00prop;");
@@ -307,10 +304,6 @@ public class SPiCa_Main extends Fragment {
 						spica2.append("rm /system/etc/init.d/01iopv;");
 						spica2.append("rm /system/etc/init.d/02freqpv;");
 						
-						// Create Bakcup "install-recovery.sh"
-						spica2.append("mkdir /sdcard/dreamnarae/backup;");
-						spica2.append("cat /system/etc/install-recovery.sh > /sdcard/dreamnarae/backup/install-recovery.sh;");
-
 						// Copy spica Files to /system/
 						spica2.append("cat /data/data/angeloid.dreamnarae/files/00prop > /system/etc/init.d/00prop;");
 						spica2.append("cat /data/data/angeloid.dreamnarae/files/01io > /system/etc/init.d/01io;");

@@ -139,20 +139,20 @@
         android:text="@string/updateapp7"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
-    <TextView
+   <!-- <TextView
         android:id="@+id/tab_change_updateapp8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/tab_change_updateapp7"
         android:text="@string/updateapp8"
-        android:textAppearance="?android:attr/textAppearanceSmall" />
+        android:textAppearance="?android:attr/textAppearanceSmall" /> --> 
 
     <TextView
         android:id="@+id/tab_change_thankyou"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tab_change_updateapp8"
+        android:layout_below="@+id/tab_change_updateapp7"
         android:layout_centerHorizontal="true"
         android:text="@string/thankyou"
         android:textAppearance="?android:attr/textAppearanceLarge"

@@ -176,9 +176,6 @@ public class Miracle_Main extends Fragment {
 						miracle.append("rm /system/etc/init.d/01iopv;");
 						miracle.append("rm /system/etc/init.d/02freqpv;");
 						
-						// Create Bakcup "install-recovery.sh"
-						miracle.append("mkdir /sdcard/dreamnarae/backup;");
-						miracle.append("cat /system/etc/install-recovery.sh > /sdcard/dreamnarae/backup/install-recovery.sh;");
 
 						// Copy Miracle Files to /system/
 						miracle.append("cat /data/data/angeloid.dreamnarae/files/00set > /system/etc/init.d/00set;");
@@ -315,9 +312,6 @@ public class Miracle_Main extends Fragment {
 						miracle2.append("rm /system/etc/init.d/01iopv;");
 						miracle2.append("rm /system/etc/init.d/02freqpv;");
 						
-						// Create Bakcup "install-recovery.sh"
-						miracle2.append("mkdir /sdcard/dreamnarae/backup;");
-						miracle2.append("cat /system/etc/install-recovery.sh > /sdcard/dreamnarae/backup/install-recovery.sh;");
 
 						// Copy Miracle Files to /system/
 						miracle2.append("cat /data/data/angeloid.dreamnarae/files/00set > /system/etc/init.d/00set;");
