@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/info_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/info_1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/color01" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/info_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/windsekirun"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/color02" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/contact"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/color03" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff" >
+
+        <ImageView
+            android:id="@+id/blankbutton0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:src="@drawable/transbutton" />
+
+        <ImageView
+            android:id="@+id/blankbutton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:src="@drawable/transbutton" />
+
+        <ImageView
+            android:id="@+id/blankbutton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:src="@drawable/transbutton" />
+
+        <ImageButton
+            android:id="@+id/emailbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="emailbuttonclicked"
+            android:src="@drawable/emailbutton" />
+
+        <ImageView
+            android:id="@+id/blankbutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:src="@drawable/transbutton" />
+
+        <ImageButton
+            android:id="@+id/facebookbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="facebookbuttonclicked"
+            android:src="@drawable/facebookbutton1" />
+
+        <ImageView
+            android:id="@+id/blankbutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:src="@drawable/transbutton" />
+
+        <ImageButton
+            android:id="@+id/twitterbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="twitterbuttonclicked"
+            android:src="@drawable/twitterbutton" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="backbuttonclicked"
+        android:text="back" />
+
+</LinearLayout>

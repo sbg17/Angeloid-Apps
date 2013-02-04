@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LU6200 IMEI Tool</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="noroot">사용자의 기기가 루팅이 되어있지 않아 imei 백업이 불가능합니다!</string>
+    <string name="busybox">busybox가 설치되지 않았습니다! 사용자 기기에 맞는 busybox를 설치해주세요!</string>
+    <string name="uninstall_confirm">imei를 복원하시겠습니까?</string>
+    <string name="applysuccess">/sdcard/imeibackup로 백업되었습니다!</string>
+    <string name="info_1">LU6200 IMEI Tool</string>
+    <string name="windsekirun">WindSekirun(Dong Gil, Seo)</string>
+    <string name="contact">연락처</string>
+    <string name="helpinfobutton">정보/연락처</string>
+    <string name="copyright">Copyright 2009_2012 Angeloid Team, inc</string>
+    <string name="uninstallsuccess">IMEI가 복원되었습니다!</string>
+    
+</resources>
