@@ -95,8 +95,8 @@
     <string name="tab_changelog">Update Log</string>
 
     <!-- changelog update 1.2 -->
-    <string name="appversion">Version 1.4</string>
-    <string name="builddate">February 4, 2013</string>
+    <string name="appversion">Version 1.4.1</string>
+    <string name="builddate">February 7, 2013</string>
     <string name="spicaversion">DreamNarae SPiCa 4.8</string>
     <string name="miracleversion">DreamNarae Miracle 2.0+</string>
     <string name="saveversion">DreamNarae Save 2.5</string>

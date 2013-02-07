@@ -183,7 +183,7 @@ public class Miracle_Main extends Fragment {
 						miracle.append("cat /data/data/angeloid.dreamnarae/files/02vsls > /system/etc/init.d/02vsls;");
 						miracle.append("cat /data/data/angeloid.dreamnarae/files/03dch > /system/etc/init.d/03dch;");
 						miracle.append("cat /data/data/angeloid.dreamnarae/files/98banner_dreamnarae_miracle > /system/98banner_dreamnarae_miracle;");
-						miracle.append("cat/data/data/angeloid.dreamnarae/files/install-recovery.sh > /system/etc/install-recovery.sh;");
+						miracle.append("cat /data/data/angeloid.dreamnarae/files/install-recovery.sh > /system/etc/install-recovery.sh;");
 
 						// Delete Download Files
 						miracle.append("rm /data/data/angeloid.dreamnarae/files/00set;");
@@ -319,7 +319,7 @@ public class Miracle_Main extends Fragment {
 						miracle2.append("cat /data/data/angeloid.dreamnarae/files/02vsls > /system/etc/init.d/02vsls;");
 						miracle2.append("cat /data/data/angeloid.dreamnarae/files/03dch > /system/etc/init.d/03dch;");
 						miracle2.append("cat /data/data/angeloid.dreamnarae/files/98banner_dreamnarae_miracle > /system/98banner_dreamnarae_miracle;");
-						miracle2.append("cat/data/data/angeloid.dreamnarae/files/install-recovery.sh > /system/etc/install-recovery.sh;");
+						miracle2.append("cat /data/data/angeloid.dreamnarae/files/install-recovery.sh > /system/etc/install-recovery.sh;");
 
 						// Delete Download Files
 						miracle2.append("rm /data/data/angeloid.dreamnarae/files/00set;");

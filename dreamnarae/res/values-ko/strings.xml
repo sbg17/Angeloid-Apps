@@ -105,8 +105,8 @@
     <string name="tab_changelog">업데이트 내역</string>
 
     <!-- changelog update 1.2 -->
-    <string name="appversion">버전 1.4</string>
-    <string name="builddate">2013년 2월 4일</string>
+    <string name="appversion">버전 1.4.1</string>
+    <string name="builddate">2013년 2월 7일</string>
     <string name="spicaversion">드림나래 SPiCa 4.8</string>
     <string name="miracleversion">드림나래 Miracle 2.0+</string>
     <string name="saveversion">드림나래 Save 2.5</string>
