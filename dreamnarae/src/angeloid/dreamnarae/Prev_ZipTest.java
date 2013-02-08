@@ -46,7 +46,7 @@ public class Prev_ZipTest {
 			try {
 
 				URL finalUrl_prev = new URL(
-						"http://dreamnaraepatchdownload.googlecode.com/files/%5BC%5DPrev%20Source%201.2.zip");
+						"http://dreamnaraepatchdownload.googlecode.com/files/Prev%201.4%202013.02.08.zip");
 				urlConnection_prev = finalUrl_prev.openConnection();
 
 				ZipInputStream zipInputStream_prev = new ZipInputStream(

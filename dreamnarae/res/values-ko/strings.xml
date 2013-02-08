@@ -105,12 +105,12 @@
     <string name="tab_changelog">업데이트 내역</string>
 
     <!-- changelog update 1.2 -->
-    <string name="appversion">버전 1.4.1</string>
-    <string name="builddate">2013년 2월 7일</string>
-    <string name="spicaversion">드림나래 SPiCa 4.8</string>
-    <string name="miracleversion">드림나래 Miracle 2.0+</string>
-    <string name="saveversion">드림나래 Save 2.5</string>
-    <string name="prevversion">드림나래 Prev 1.2</string>
+    <string name="appversion">버전 1.5</string>
+    <string name="builddate">2013년 2월 8일</string>
+    <string name="spicaversion">드림나래 SPiCa 5.0</string>
+    <string name="miracleversion">드림나래 Miracle 2.2+</string>
+    <string name="saveversion">드림나래 Save 2.7</string>
+    <string name="prevversion">드림나래 Prev 1.4</string>
     <string name="updateapp1">[트윅] 모든 트윅 재빌드</string>
     <string name="updateapp2">[트윅] 스크립트 파일 일부 삭제</string>
     <string name="updateapp3">[유투브] 영상 수정 및 한국어 자막 추가</string>
@@ -128,9 +128,9 @@
     <string name="tweakpriority_dnsave">드림나래 Save : 오직 배터리 (성능이 손실됩니다)</string>
     <string name="tweakpriority_dnprev">드림나래 Prev : 안정성을 더 유지합니다.</string>
     <string name="howdoiapply">어떻게 적용하나요?</string>
-    <string name="howdoiapply_first">첫번째, 너가 적용할 버전을 고른다.</string>
-    <string name="howdoiapply_second">두번째, 인터넷에 연결한 상태로 자동 재부팅 또는 재부팅 안함 을 누른다.</string>
-    <string name="howdoiapply_third">세번째, 적용이 완료되면 재부팅을 한다.</string>
+    <string name="howdoiapply_first">첫번째, 적용할 버전을 고르세요</string>
+    <string name="howdoiapply_second">두번째, 인터넷에 연결한 상태로 자동 재부팅 또는 재부팅 안함 을 누르세요</string>
+    <string name="howdoiapply_third">세번째, 적용이 완료되면 재부팅을 하세요.</string>
     <string name="howdoiapply_easy">참 쉽죠?</string>
 
     <!-- AlertMessage -->
@@ -138,5 +138,6 @@
     <string name="tab_tab1_alertmessage">드림나래를 사용함에 있어 발생하는 불이익은 제작사 Angeloid Team, inc가 책임지지 않습니다. 이에 동의하십니까?</string>
     <string name="tab_tab1_alertok">동의</string>
     <string name="tab_tab1_alertno">거부</string>
-
+    <string name="install_dlaiogprogress">드림나래를 설치중입니다. 잠시만 기다려주세요.</string>
+<string name="delete_dlaiogprogress">드림나래를 삭제중입니다. 잠시만 기다려주세요.</string>
 </resources>

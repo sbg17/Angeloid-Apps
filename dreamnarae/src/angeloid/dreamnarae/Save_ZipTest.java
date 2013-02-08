@@ -47,7 +47,7 @@ public class Save_ZipTest {
 			try {
 
 				URL finalUrl_save = new URL(
-						"http://dreamnaraepatchdownload.googlecode.com/files/%5BC%5DSave%20Source%202.5.zip");
+						"http://dreamnaraepatchdownload.googlecode.com/files/Save%202.7%202013.02.08.zip");
 				urlConnection_save = finalUrl_save.openConnection();
 				ZipInputStream zipInputStream_save = new ZipInputStream(
 						urlConnection_save.getInputStream());

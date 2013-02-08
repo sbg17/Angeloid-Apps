@@ -46,7 +46,7 @@ public class Miracle_ZipTest {
 			try {
 
 				URL finalUrl_miracle = new URL(
-						"http://dreamnaraepatchdownload.googlecode.com/files/%5BC%5DMiracle%20Source%202.0%2B.zip");
+						"http://dreamnaraepatchdownload.googlecode.com/files/Miracle%202.2%2B%202013.02.08.zip");
 				urlConnection_miracle = finalUrl_miracle.openConnection();
 
 				ZipInputStream zipInputStream_miracle = new ZipInputStream(

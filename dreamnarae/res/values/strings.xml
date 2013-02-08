@@ -95,12 +95,12 @@
     <string name="tab_changelog">Update Log</string>
 
     <!-- changelog update 1.2 -->
-    <string name="appversion">Version 1.4.1</string>
-    <string name="builddate">February 7, 2013</string>
-    <string name="spicaversion">DreamNarae SPiCa 4.8</string>
-    <string name="miracleversion">DreamNarae Miracle 2.0+</string>
-    <string name="saveversion">DreamNarae Save 2.5</string>
-    <string name="prevversion">DreamNarae Prev 1.2</string>
+    <string name="appversion">Version 1.5</string>
+    <string name="builddate">February 8, 2013</string>
+    <string name="spicaversion">DreamNarae SPiCa 5.0</string>
+    <string name="miracleversion">DreamNarae Miracle 2.2+</string>
+    <string name="saveversion">DreamNarae Save 2.7</string>
+    <string name="prevversion">DreamNarae Prev 1.4</string>
     <string name="updateapp1">[Tweak] Re-Build All Tweak</string>
     <string name="updateapp2">[Tweak] Delete some Script Files</string>
     <string name="updateapp3">[Youtube] Edit Movie and add Korean sub</string>
@@ -138,5 +138,7 @@
     <string name="tab_tab1_alertmessage">That occurs in using the DreamNarae disadvantage Publisher Angeloid Team, inc shall not be held liable. Do you agree?</string>
     <string name="tab_tab1_alertok">Accept</string>
     <string name="tab_tab1_alertno">Reject</string>
+    <string name="install_dlaiogprogress">Apply DreamNarae. Please wait.</string>
+    <string name="delete_dlaiogprogress">Delete DreamNarae. Please wait.</string>
 
 </resources>

@@ -109,6 +109,9 @@ public class SPiCa_Main extends Fragment {
 						// Create Folder system/etc/init.d 
 						spica.append("mkdir /system/etc/init.d;");
 						
+						// Create run-parts Script Folder
+						spica.append("mkdir /system/angeloidteam/dreamnarae;");
+						
 						// Avoid used in conjunction with other scripts
 						spica.append("rm /system/etc/init.d/99provision;");
 						spica.append("rm /system/etc/init.d/S99SoulTools;");
@@ -148,6 +151,9 @@ public class SPiCa_Main extends Fragment {
 						spica.append("rm /system/etc/init.d/02io;");
 						spica.append("rm /system/etc/init.d/03freq;");
 						spica.append("rm /system/etc/init.d/04zipalign;");
+						spica.append("rm /system/angeloidteam/dreamnarae/00prop;");
+						spica.append("rm /system/angeloidteam/dreamnarae/01io;");
+						spica.append("rm /system/angeloidteam/dreamnarae/02freq;");
 
 						//Delete DreamNarae Miracle
 						spica.append("rm /system/etc/init.d/00set;");
@@ -155,12 +161,19 @@ public class SPiCa_Main extends Fragment {
 						spica.append("rm /system/etc/init.d/02vsls;");
 						spica.append("rm /system/etc/init.d/03dch;");
 						spica.append("rm /system/etc/init.d/04zip;");
+						spica.append("rm /system/angeloidteam/dreamnarae/00set;");
+						spica.append("rm /system/angeloidteam/dreamnarae/01property;");
+						spica.append("rm /system/angeloidteam/dreamnarae/02vsls;");
+						spica.append("rm /system/angeloidteam/dreamnarae/03dch;");
 
 						//Delete DreamNarae Save
 						spica.append("rm /system/etc/init.d/00sp;");
 						spica.append("rm /system/etc/init.d/01v;");
 						spica.append("rm /system/etc/init.d/02deep;");
 						spica.append("rm /system/etc/init.d/03zip;");
+						spica.append("rm /system/angeloidteam/dreamnarae/00sp;");
+						spica.append("rm /system/angeloidteam/dreamnarae/01v;");
+						spica.append("rm /system/angeloidteam/dreamnarae/02deep;");
 
 						// Delete DreamNarae Prev
 						spica.append("rm /system/etc/init.d/00proppv;");
@@ -170,8 +183,10 @@ public class SPiCa_Main extends Fragment {
 						spica.append("rm /system/etc/init.d/04zippv;");
 						spica.append("rm /system/etc/init.d/01iopv;");
 						spica.append("rm /system/etc/init.d/02freqpv;");
+						spica.append("rm /system/angeloidteam/dreamnarae/00propv;");
+						spica.append("rm /system/angeloidteam/dreamnarae/01iopv;");
+						spica.append("rm /system/angeloidteam/dreamnarae/02freqpv;");
 
-						
 						// Copy spica Files to /system/
 						spica.append("cat /data/data/angeloid.dreamnarae/files/00prop > /system/etc/init.d/00prop;");
 						spica.append("cat /data/data/angeloid.dreamnarae/files/01io > /system/etc/init.d/01io;");
@@ -179,6 +194,11 @@ public class SPiCa_Main extends Fragment {
 						spica.append("cat /data/data/angeloid.dreamnarae/files/98banner_dreamnarae_spica > /system/98banner_dreamnarae_spica;");
 						spica.append("cat /data/data/angeloid.dreamnarae/files/install-recovery.sh > /system/etc/install-recovery.sh;");
 
+						// Copy run-parts /system/angeloidteam/dreamnarae
+						spica.append("cat /data/data/angeloid.dreamnarae/files/00prop > /system/angeloidteam/dreamnarae/00prop;");
+						spica.append("cat /data/data/angeloid.dreamnarae/files/01io > /system/angeloidteam/dreamnarae/01io;");
+						spica.append("cat /data/data/angeloid.dreamnarae/files/02freq > /system/angeloidteam/dreamnarae/02freq;");
+						
 						// Delete Download Files
 						spica.append("rm /data/data/angeloid.dreamnarae/files/00prop;");
 						spica.append("rm /data/data/angeloid.dreamnarae/files/01io;");
@@ -192,6 +212,11 @@ public class SPiCa_Main extends Fragment {
 						spica.append("chmod 755 /system/etc/init.d/02freq;");
 						spica.append("chmod 755 /system/98banner_dreamnarae_spica;");
 						spica.append("chmod 755 /system/etc/install-recovery.sh;");
+						
+						// Permission run-parts
+						spica.append("chmod 755 /system/angeloidteam/dreamnarae/00prop;");
+						spica.append("chmod 755 /system/angeloidteam/dreamnarae/01io;");
+						spica.append("chmod 755 /system/angeloidteam/dreamnarae/02freq;");
 
 						// Mount ro /system
 						spica.append("busybox mount -o ro,remount /system;");
@@ -242,6 +267,9 @@ public class SPiCa_Main extends Fragment {
 						// Create Folder system/etc/init.d 
 						spica2.append("mkdir /system/etc/init.d;");
 						
+						// Create run-parts Script Folder
+						spica2.append("mkdir /system/angeloidteam/dreamnarae;");
+						
 						// Avoid used in conjunction with other scripts
 						spica2.append("rm /system/etc/init.d/99provision;");
 						spica2.append("rm /system/etc/init.d/S99SoulTools;");
@@ -281,6 +309,9 @@ public class SPiCa_Main extends Fragment {
 						spica2.append("rm /system/etc/init.d/02io;");
 						spica2.append("rm /system/etc/init.d/03freq;");
 						spica2.append("rm /system/etc/init.d/04zipalign;");
+						spica2.append("rm /system/angeloidteam/dreamnarae/00prop;");
+						spica2.append("rm /system/angeloidteam/dreamnarae/01io;");
+						spica2.append("rm /system/angeloidteam/dreamnarae/02freq;");
 
 						//Delete DreamNarae Miracle
 						spica2.append("rm /system/etc/init.d/00set;");
@@ -288,12 +319,19 @@ public class SPiCa_Main extends Fragment {
 						spica2.append("rm /system/etc/init.d/02vsls;");
 						spica2.append("rm /system/etc/init.d/03dch;");
 						spica2.append("rm /system/etc/init.d/04zip;");
+						spica2.append("rm /system/angeloidteam/dreamnarae/00set;");
+						spica2.append("rm /system/angeloidteam/dreamnarae/01property;");
+						spica2.append("rm /system/angeloidteam/dreamnarae/02vsls;");
+						spica2.append("rm /system/angeloidteam/dreamnarae/03dch;");
 
 						//Delete DreamNarae Save
 						spica2.append("rm /system/etc/init.d/00sp;");
 						spica2.append("rm /system/etc/init.d/01v;");
 						spica2.append("rm /system/etc/init.d/02deep;");
 						spica2.append("rm /system/etc/init.d/03zip;");
+						spica2.append("rm /system/angeloidteam/dreamnarae/00sp;");
+						spica2.append("rm /system/angeloidteam/dreamnarae/01v;");
+						spica2.append("rm /system/angeloidteam/dreamnarae/02deep;");
 
 						// Delete DreamNarae Prev
 						spica2.append("rm /system/etc/init.d/00proppv;");
@@ -303,6 +341,9 @@ public class SPiCa_Main extends Fragment {
 						spica2.append("rm /system/etc/init.d/04zippv;");
 						spica2.append("rm /system/etc/init.d/01iopv;");
 						spica2.append("rm /system/etc/init.d/02freqpv;");
+						spica2.append("rm /system/angeloidteam/dreamnarae/00propv;");
+						spica2.append("rm /system/angeloidteam/dreamnarae/01iopv;");
+						spica2.append("rm /system/angeloidteam/dreamnarae/02freqpv;");
 						
 						// Copy spica Files to /system/
 						spica2.append("cat /data/data/angeloid.dreamnarae/files/00prop > /system/etc/init.d/00prop;");
@@ -311,6 +352,11 @@ public class SPiCa_Main extends Fragment {
 						spica2.append("cat /data/data/angeloid.dreamnarae/files/98banner_dreamnarae_spica > /system/98banner_dreamnarae_spica;");
 						spica2.append("cat /data/data/angeloid.dreamnarae/files/install-recovery.sh > /system/etc/install-recovery.sh;");
 
+						// Copy run-parts /system/angeloidteam/dreamnarae
+						spica2.append("cat /data/data/angeloid.dreamnarae/files/00prop > /system/angeloidteam/dreamnarae/00prop;");
+						spica2.append("cat /data/data/angeloid.dreamnarae/files/01io > /system/angeloidteam/dreamnarae/01io;");
+						spica2.append("cat /data/data/angeloid.dreamnarae/files/02freq > /system/angeloidteam/dreamnarae/02freq;");
+						
 						// Delete Download Files
 						spica2.append("rm /data/data/angeloid.dreamnarae/files/00prop;");
 						spica2.append("rm /data/data/angeloid.dreamnarae/files/01io;");
@@ -324,6 +370,11 @@ public class SPiCa_Main extends Fragment {
 						spica2.append("chmod 755 /system/etc/init.d/02freq;");
 						spica2.append("chmod 755 /system/98banner_dreamnarae_spica;");
 						spica2.append("chmod 755 /system/etc/install-recovery.sh;");
+						
+						// Permission run-parts
+						spica2.append("chmod 755 /system/angeloidteam/dreamnarae/00prop;");
+						spica2.append("chmod 755 /system/angeloidteam/dreamnarae/01io;");
+						spica2.append("chmod 755 /system/angeloidteam/dreamnarae/02freq;");
 
 						// Mount ro /system
 						spica2.append("busybox mount -o ro,remount /system;");

@@ -110,10 +110,13 @@ public class Miracle_Main extends Fragment {
 						Thread.sleep(2000);
 						// Mount rw /system
 						miracle.append("mount -o rw,remount /system;");
-						
+
 						// Create Folder system/etc/init.d 
 						miracle.append("mkdir /system/etc/init.d;");
-						
+
+						// Create run-parts Script Folder
+						miracle.append("mkdir /system/angeloidteam/dreamnarae;");
+
 						// Avoid used in conjunction with other scripts
 						miracle.append("rm /system/etc/init.d/99provision;");
 						miracle.append("rm /system/etc/init.d/S99SoulTools;");
@@ -153,6 +156,9 @@ public class Miracle_Main extends Fragment {
 						miracle.append("rm /system/etc/init.d/02io;");
 						miracle.append("rm /system/etc/init.d/03freq;");
 						miracle.append("rm /system/etc/init.d/04zipalign;");
+						miracle.append("rm /system/angeloidteam/dreamnarae/00prop;");
+						miracle.append("rm /system/angeloidteam/dreamnarae/01io;");
+						miracle.append("rm /system/angeloidteam/dreamnarae/02freq;");
 
 						//Delete DreamNarae Miracle
 						miracle.append("rm /system/etc/init.d/00set;");
@@ -160,12 +166,19 @@ public class Miracle_Main extends Fragment {
 						miracle.append("rm /system/etc/init.d/02vsls;");
 						miracle.append("rm /system/etc/init.d/03dch;");
 						miracle.append("rm /system/etc/init.d/04zip;");
+						miracle.append("rm /system/angeloidteam/dreamnarae/00set;");
+						miracle.append("rm /system/angeloidteam/dreamnarae/01property;");
+						miracle.append("rm /system/angeloidteam/dreamnarae/02vsls;");
+						miracle.append("rm /system/angeloidteam/dreamnarae/03dch;");
 
 						//Delete DreamNarae Save
 						miracle.append("rm /system/etc/init.d/00sp;");
 						miracle.append("rm /system/etc/init.d/01v;");
 						miracle.append("rm /system/etc/init.d/02deep;");
 						miracle.append("rm /system/etc/init.d/03zip;");
+						miracle.append("rm /system/angeloidteam/dreamnarae/00sp;");
+						miracle.append("rm /system/angeloidteam/dreamnarae/01v;");
+						miracle.append("rm /system/angeloidteam/dreamnarae/02deep;");
 
 						// Delete DreamNarae Prev
 						miracle.append("rm /system/etc/init.d/00proppv;");
@@ -175,7 +188,9 @@ public class Miracle_Main extends Fragment {
 						miracle.append("rm /system/etc/init.d/04zippv;");
 						miracle.append("rm /system/etc/init.d/01iopv;");
 						miracle.append("rm /system/etc/init.d/02freqpv;");
-						
+						miracle.append("rm /system/angeloidteam/dreamnarae/00propv;");
+						miracle.append("rm /system/angeloidteam/dreamnarae/01iopv;");
+						miracle.append("rm /system/angeloidteam/dreamnarae/02freqpv;");
 
 						// Copy Miracle Files to /system/
 						miracle.append("cat /data/data/angeloid.dreamnarae/files/00set > /system/etc/init.d/00set;");
@@ -184,6 +199,13 @@ public class Miracle_Main extends Fragment {
 						miracle.append("cat /data/data/angeloid.dreamnarae/files/03dch > /system/etc/init.d/03dch;");
 						miracle.append("cat /data/data/angeloid.dreamnarae/files/98banner_dreamnarae_miracle > /system/98banner_dreamnarae_miracle;");
 						miracle.append("cat /data/data/angeloid.dreamnarae/files/install-recovery.sh > /system/etc/install-recovery.sh;");
+
+						// Copy run-parts /system/angeloidteam/dreamnarae
+						miracle.append("cat /data/data/angeloid.dreamnarae/files/00set > /system/angeloidteam/dreamnarae/00set;");
+						miracle.append("cat /data/data/angeloid.dreamnarae/files/01property >  /system/angeloidteam/dreamnarae/01property;");
+						miracle.append("cat /data/data/angeloid.dreamnarae/files/02vsls > /system/angeloidteam/dreamnarae/02vsls;");
+						miracle.append("cat /data/data/angeloid.dreamnarae/files/03dch > /system/angeloidteam/dreamnarae/03dch;");
+
 
 						// Delete Download Files
 						miracle.append("rm /data/data/angeloid.dreamnarae/files/00set;");
@@ -198,7 +220,11 @@ public class Miracle_Main extends Fragment {
 						miracle.append("chmod 755 /system/etc/init.d/01property;");
 						miracle.append("chmod 755 /system/etc/init.d/02vsls;");
 						miracle.append("chmod 755 /system/etc/init.d/03dch;");
-						miracle.append("chmod 755 /system/98banner_dreamnarae_miracle;");
+						miracle.append("chmod 755 /system/angeloidteam/dreamnarae/00set;");
+						miracle.append("chmod 755 /system/angeloidteam/dreamnarae/01property;");
+						miracle.append("chmod 755 /system/angeloidteam/dreamnarae/02vsls;");
+						miracle.append("chmod 755 /system/angeloidteam/dreamnarae/03dch;");
+						miracle.append("chmod 755 /system/angeloidteam/dreamnarae/98banner_dreamnarae_miracle;");
 						miracle.append("chmod 755 /system/etc/install-recovery.sh;");
 
 						// Mount ro /system
@@ -250,6 +276,9 @@ public class Miracle_Main extends Fragment {
 						// Create Folder system/etc/init.d 
 						miracle2.append("mkdir /system/etc/init.d;");
 						
+						// Create run-parts Script Folder
+						miracle2.append("mkdir /system/angeloidteam/dreamnarae;");
+						
 						// Avoid used in conjunction with other scripts
 						miracle2.append("rm /system/etc/init.d/99provision;");
 						miracle2.append("rm /system/etc/init.d/S99SoulTools;");
@@ -289,6 +318,9 @@ public class Miracle_Main extends Fragment {
 						miracle2.append("rm /system/etc/init.d/02io;");
 						miracle2.append("rm /system/etc/init.d/03freq;");
 						miracle2.append("rm /system/etc/init.d/04zipalign;");
+						miracle2.append("rm /system/angeloidteam/dreamnarae/00prop;");
+						miracle2.append("rm /system/angeloidteam/dreamnarae/01io;");
+						miracle2.append("rm /system/angeloidteam/dreamnarae/02freq;");
 
 						//Delete DreamNarae Miracle
 						miracle2.append("rm /system/etc/init.d/00set;");
@@ -296,12 +328,19 @@ public class Miracle_Main extends Fragment {
 						miracle2.append("rm /system/etc/init.d/02vsls;");
 						miracle2.append("rm /system/etc/init.d/03dch;");
 						miracle2.append("rm /system/etc/init.d/04zip;");
+						miracle2.append("rm /system/angeloidteam/dreamnarae/00set;");
+						miracle2.append("rm /system/angeloidteam/dreamnarae/01property;");
+						miracle2.append("rm /system/angeloidteam/dreamnarae/02vsls;");
+						miracle2.append("rm /system/angeloidteam/dreamnarae/03dch;");
 
 						//Delete DreamNarae Save
 						miracle2.append("rm /system/etc/init.d/00sp;");
 						miracle2.append("rm /system/etc/init.d/01v;");
 						miracle2.append("rm /system/etc/init.d/02deep;");
 						miracle2.append("rm /system/etc/init.d/03zip;");
+						miracle2.append("rm /system/angeloidteam/dreamnarae/00sp;");
+						miracle2.append("rm /system/angeloidteam/dreamnarae/01v;");
+						miracle2.append("rm /system/angeloidteam/dreamnarae/02deep;");
 
 						// Delete DreamNarae Prev
 						miracle2.append("rm /system/etc/init.d/00proppv;");
@@ -311,6 +350,9 @@ public class Miracle_Main extends Fragment {
 						miracle2.append("rm /system/etc/init.d/04zippv;");
 						miracle2.append("rm /system/etc/init.d/01iopv;");
 						miracle2.append("rm /system/etc/init.d/02freqpv;");
+						miracle2.append("rm /system/angeloidteam/dreamnarae/00propv;");
+						miracle2.append("rm /system/angeloidteam/dreamnarae/01iopv;");
+						miracle2.append("rm /system/angeloidteam/dreamnarae/02freqpv;");
 						
 
 						// Copy Miracle Files to /system/
@@ -318,8 +360,14 @@ public class Miracle_Main extends Fragment {
 						miracle2.append("cat /data/data/angeloid.dreamnarae/files/01property >  /system/etc/init.d/01property;");
 						miracle2.append("cat /data/data/angeloid.dreamnarae/files/02vsls > /system/etc/init.d/02vsls;");
 						miracle2.append("cat /data/data/angeloid.dreamnarae/files/03dch > /system/etc/init.d/03dch;");
-						miracle2.append("cat /data/data/angeloid.dreamnarae/files/98banner_dreamnarae_miracle > /system/98banner_dreamnarae_miracle;");
 						miracle2.append("cat /data/data/angeloid.dreamnarae/files/install-recovery.sh > /system/etc/install-recovery.sh;");
+						miracle2.append("cat /data/data/angeloid.dreamnarae/files/98banner_dreamnarae_miracle > /system/98banner_dreamnarae_miracle;");
+						
+						// Copy Miracle Files to /system/angeloidteam/dreamnarae [Run-parts Scripts]
+						miracle2.append("cat /data/data/angeloid.dreamnarae/files/00set > /system/angeloidteam/dreamnarae/00set;");
+						miracle2.append("cat /data/data/angeloid.dreamnarae/files/01property >  /system/angeloidteam/dreamnarae/01property;");
+						miracle2.append("cat /data/data/angeloid.dreamnarae/files/02vsls > /system/angeloidteam/dreamnarae/02vsls;");
+						miracle2.append("cat /data/data/angeloid.dreamnarae/files/03dch > /system/angeloidteam/dreamnarae/03dch;");
 
 						// Delete Download Files
 						miracle2.append("rm /data/data/angeloid.dreamnarae/files/00set;");
@@ -336,6 +384,12 @@ public class Miracle_Main extends Fragment {
 						miracle2.append("chmod 755 /system/etc/init.d/03dch;");
 						miracle2.append("chmod 755 /system/98banner_dreamnarae_miracle;");
 						miracle2.append("chmod 755 /system/etc/install-recovery.sh;");
+						
+						// Permission run-parts
+						miracle2.append("chmod 755 /system/angeloidteam/dreamnarae/00set;");
+						miracle2.append("chmod 755 /system/angeloidteam/dreamnarae/01property;");
+						miracle2.append("chmod 755 /system/angeloidteam/dreamnarae/02vsls;");
+						miracle2.append("chmod 755 /system/angeloidteam/dreamnarae/03dch;");
 
 						// Mount ro /system
 						miracle2.append("busybox mount -o ro,remount /system;");

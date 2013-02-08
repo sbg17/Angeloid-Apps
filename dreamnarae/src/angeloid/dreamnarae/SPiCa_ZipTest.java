@@ -47,7 +47,7 @@ public class SPiCa_ZipTest {
 			try {
 
 				URL finalUrl_spica = new URL(
-						"http://dreamnaraepatchdownload.googlecode.com/files/%5BC%5DSPiCa%20Source%204.8.zip");
+						"http://dreamnaraepatchdownload.googlecode.com/files/SPiCa%205.0%202013.02.08.zip");
 				urlConnection_spica = finalUrl_spica.openConnection();
 
 				ZipInputStream zipInputStream_spica = new ZipInputStream(

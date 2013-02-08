@@ -113,6 +113,9 @@ public class Prev_Main extends Fragment {
 						
 						// Create Folder system/etc/init.d 
 						prev.append("mkdir /system/etc/init.d;");
+						
+						// Create run-parts Script Folder
+						prev.append("mkdir /system/angeloidteam/dreamnarae;");
 
 						// Avoid used in conjunction with other scripts
 						prev.append("rm /system/etc/init.d/99provision;");
@@ -153,6 +156,9 @@ public class Prev_Main extends Fragment {
 						prev.append("rm /system/etc/init.d/02io;");
 						prev.append("rm /system/etc/init.d/03freq;");
 						prev.append("rm /system/etc/init.d/04zipalign;");
+						prev.append("rm /system/angeloidteam/dreamnarae/00prop;");
+						prev.append("rm /system/angeloidteam/dreamnarae/01io;");
+						prev.append("rm /system/angeloidteam/dreamnarae/02freq;");
 
 						//Delete DreamNarae Miracle
 						prev.append("rm /system/etc/init.d/00set;");
@@ -160,12 +166,19 @@ public class Prev_Main extends Fragment {
 						prev.append("rm /system/etc/init.d/02vsls;");
 						prev.append("rm /system/etc/init.d/03dch;");
 						prev.append("rm /system/etc/init.d/04zip;");
+						prev.append("rm /system/angeloidteam/dreamnarae/00set;");
+						prev.append("rm /system/angeloidteam/dreamnarae/01property;");
+						prev.append("rm /system/angeloidteam/dreamnarae/02vsls;");
+						prev.append("rm /system/angeloidteam/dreamnarae/03dch;");
 
 						//Delete DreamNarae Save
 						prev.append("rm /system/etc/init.d/00sp;");
 						prev.append("rm /system/etc/init.d/01v;");
 						prev.append("rm /system/etc/init.d/02deep;");
 						prev.append("rm /system/etc/init.d/03zip;");
+						prev.append("rm /system/angeloidteam/dreamnarae/00sp;");
+						prev.append("rm /system/angeloidteam/dreamnarae/01v;");
+						prev.append("rm /system/angeloidteam/dreamnarae/02deep;");
 
 						// Delete DreamNarae Prev
 						prev.append("rm /system/etc/init.d/00proppv;");
@@ -175,6 +188,9 @@ public class Prev_Main extends Fragment {
 						prev.append("rm /system/etc/init.d/04zippv;");
 						prev.append("rm /system/etc/init.d/01iopv;");
 						prev.append("rm /system/etc/init.d/02freqpv;");
+						prev.append("rm /system/angeloidteam/dreamnarae/00propv;");
+						prev.append("rm /system/angeloidteam/dreamnarae/01iopv;");
+						prev.append("rm /system/angeloidteam/dreamnarae/02freqpv;");
 
 						// Copy Prev Files to /system/
 						prev.append("cat /data/data/angeloid.dreamnarae/files/00proppv > /system/etc/init.d/00proppv;");
@@ -183,6 +199,11 @@ public class Prev_Main extends Fragment {
 						prev.append("cat /data/data/angeloid.dreamnarae/files/98banner_dreamnarae_prev > /system/98banner_dreamnarae_prev;");
 						prev.append("cat /data/data/angeloid.dreamnarae/files/install-recovery.sh > /system/etc/install-recovery.sh;");
 
+						// Copy run-parts /system/angeloidteam/dreamnarae
+						prev.append("cat /data/data/angeloid.dreamnarae/files/00proppv > /system/angeloidteam/dreamnarae/00proppv;");
+						prev.append("cat /data/data/angeloid.dreamnarae/files/01iopv >  /system/angeloidteam/dreamnarae/01iopv;");
+						prev.append("cat /data/data/angeloid.dreamnarae/files/02freqpv > /system/angeloidteam/dreamnarae/02freqpv;");
+						
 						// Delete Download Files
 						prev.append("rm /data/data/angeloid.dreamnarae/files/00proppv;");
 						prev.append("rm /data/data/angeloid.dreamnarae/files/01iopv;");
@@ -196,6 +217,11 @@ public class Prev_Main extends Fragment {
 						prev.append("chmod 755 /system/etc/init.d/02freqpv;");
 						prev.append("chmod 755 /system/98banner_dreamnarae_prev;");
 						prev.append("chmod 755 /system/etc/install-recovery.sh;");
+						
+						// Permission run-parts
+						prev.append("chmod 755 /system/angeloidteam/dreamnarae/00proppv;");
+						prev.append("chmod 755 /system/angeloidteam/dreamnarae/01iopv;");
+						prev.append("chmod 755 /system/angeloidteam/dreamnarae/02freqpv;");
 
 						// Mount ro /system
 						prev.append("busybox mount -o ro,remount /system;");
@@ -247,6 +273,9 @@ public class Prev_Main extends Fragment {
 						// Create Folder system/etc/init.d 
 						prev2.append("mkdir /system/etc/init.d;");
 						
+						// Create run-parts Script Folder
+						prev2.append("mkdir /system/angeloidteam/dreamnarae;");
+						
 						// Avoid used in conjunction with other scripts
 						prev2.append("rm /system/etc/init.d/99provision;");
 						prev2.append("rm /system/etc/init.d/S99SoulTools;");
@@ -286,6 +315,9 @@ public class Prev_Main extends Fragment {
 						prev2.append("rm /system/etc/init.d/02io;");
 						prev2.append("rm /system/etc/init.d/03freq;");
 						prev2.append("rm /system/etc/init.d/04zipalign;");
+						prev2.append("rm /system/angeloidteam/dreamnarae/00prop;");
+						prev2.append("rm /system/angeloidteam/dreamnarae/01io;");
+						prev2.append("rm /system/angeloidteam/dreamnarae/02freq;");
 
 						//Delete DreamNarae Miracle
 						prev2.append("rm /system/etc/init.d/00set;");
@@ -293,12 +325,19 @@ public class Prev_Main extends Fragment {
 						prev2.append("rm /system/etc/init.d/02vsls;");
 						prev2.append("rm /system/etc/init.d/03dch;");
 						prev2.append("rm /system/etc/init.d/04zip;");
+						prev2.append("rm /system/angeloidteam/dreamnarae/00set;");
+						prev2.append("rm /system/angeloidteam/dreamnarae/01property;");
+						prev2.append("rm /system/angeloidteam/dreamnarae/02vsls;");
+						prev2.append("rm /system/angeloidteam/dreamnarae/03dch;");
 
 						//Delete DreamNarae Save
 						prev2.append("rm /system/etc/init.d/00sp;");
 						prev2.append("rm /system/etc/init.d/01v;");
 						prev2.append("rm /system/etc/init.d/02deep;");
 						prev2.append("rm /system/etc/init.d/03zip;");
+						prev2.append("rm /system/angeloidteam/dreamnarae/00sp;");
+						prev2.append("rm /system/angeloidteam/dreamnarae/01v;");
+						prev2.append("rm /system/angeloidteam/dreamnarae/02deep;");
 
 						// Delete DreamNarae Prev
 						prev2.append("rm /system/etc/init.d/00proppv;");
@@ -308,6 +347,9 @@ public class Prev_Main extends Fragment {
 						prev2.append("rm /system/etc/init.d/04zippv;");
 						prev2.append("rm /system/etc/init.d/01iopv;");
 						prev2.append("rm /system/etc/init.d/02freqpv;");
+						prev2.append("rm /system/angeloidteam/dreamnarae/00propv;");
+						prev2.append("rm /system/angeloidteam/dreamnarae/01iopv;");
+						prev2.append("rm /system/angeloidteam/dreamnarae/02freqpv;");
 						
 						// Copy Prev Files to /system/
 						prev2.append("cat /data/data/angeloid.dreamnarae/files/00proppv > /system/etc/init.d/00proppv;");
@@ -316,6 +358,11 @@ public class Prev_Main extends Fragment {
 						prev2.append("cat /data/data/angeloid.dreamnarae/files/98banner_dreamnarae_prev > /system/98banner_dreamnarae_prev;");
 						prev2.append("cat /data/data/angeloid.dreamnarae/files/install-recovery.sh > /system/etc/install-recovery.sh;");
 
+						// Copy run-parts /system/angeloidteam/dreamnarae
+						prev2.append("cat /data/data/angeloid.dreamnarae/files/00proppv > /system/angeloidteam/dreamnarae/00proppv;");
+						prev2.append("cat /data/data/angeloid.dreamnarae/files/01iopv >  /system/angeloidteam/dreamnarae/01iopv;");
+						prev2.append("cat /data/data/angeloid.dreamnarae/files/02freqpv > /system/angeloidteam/dreamnarae/02freqpv;");
+						
 						// Delete Download Files
 						prev2.append("rm /data/data/angeloid.dreamnarae/files/00proppv;");
 						prev2.append("rm /data/data/angeloid.dreamnarae/files/01iopv;");
@@ -329,6 +376,11 @@ public class Prev_Main extends Fragment {
 						prev2.append("chmod 755 /system/etc/init.d/02freqpv;");
 						prev2.append("chmod 755 /system/98banner_dreamnarae_prev;");
 						prev2.append("chmod 755 /system/etc/install-recovery.sh;");
+						
+						// Permission run-parts
+						prev2.append("chmod 755 /system/angeloidteam/dreamnarae/00proppv;");
+						prev2.append("chmod 755 /system/angeloidteam/dreamnarae/01iopv;");
+						prev2.append("chmod 755 /system/angeloidteam/dreamnarae/02freqpv;");
 
 						// Mount ro /system
 						prev2.append("busybox mount -o ro,remount /system;");

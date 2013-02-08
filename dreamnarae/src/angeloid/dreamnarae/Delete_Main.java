@@ -69,7 +69,7 @@ public class Delete_Main extends Fragment {
 	// ¸®º×ÇÔ
 	private void DialogProgress(boolean close) {
 		if (!close) {
-			dialog_delete = ProgressDialog.show(getActivity(), "", "Loading..",
+			dialog_delete = ProgressDialog.show(getActivity(), "","Loading..",
 					true);
 			Handler mHandler = new Handler();
 			mHandler.postDelayed(new Runnable() {
@@ -119,6 +119,9 @@ public class Delete_Main extends Fragment {
 						delete.append("rm /system/etc/init.d/02io;");
 						delete.append("rm /system/etc/init.d/03freq;");
 						delete.append("rm /system/etc/init.d/04zipalign;");
+						delete.append("rm /system/angeloidteam/dreamnarae/00prop;");
+						delete.append("rm /system/angeloidteam/dreamnarae/01io;");
+						delete.append("rm /system/angeloidteam/dreamnarae/02freq;");
 
 						//Delete DreamNarae Miracle
 						delete.append("rm /system/etc/init.d/00set;");
@@ -126,12 +129,19 @@ public class Delete_Main extends Fragment {
 						delete.append("rm /system/etc/init.d/02vsls;");
 						delete.append("rm /system/etc/init.d/03dch;");
 						delete.append("rm /system/etc/init.d/04zip;");
+						delete.append("rm /system/angeloidteam/dreamnarae/00set;");
+						delete.append("rm /system/angeloidteam/dreamnarae/01property;");
+						delete.append("rm /system/angeloidteam/dreamnarae/02vsls;");
+						delete.append("rm /system/angeloidteam/dreamnarae/03dch;");
 
 						//Delete DreamNarae Save
 						delete.append("rm /system/etc/init.d/00sp;");
 						delete.append("rm /system/etc/init.d/01v;");
 						delete.append("rm /system/etc/init.d/02deep;");
 						delete.append("rm /system/etc/init.d/03zip;");
+						delete.append("rm /system/angeloidteam/dreamnarae/00sp;");
+						delete.append("rm /system/angeloidteam/dreamnarae/01v;");
+						delete.append("rm /system/angeloidteam/dreamnarae/02deep;");
 
 						// Delete DreamNarae Prev
 						delete.append("rm /system/etc/init.d/00proppv;");
@@ -141,8 +151,10 @@ public class Delete_Main extends Fragment {
 						delete.append("rm /system/etc/init.d/04zippv;");
 						delete.append("rm /system/etc/init.d/01iopv;");
 						delete.append("rm /system/etc/init.d/02freqpv;");
-						
-						
+						delete.append("rm /system/angeloidteam/dreamnarae/00propv;");
+						delete.append("rm /system/angeloidteam/dreamnarae/01iopv;");
+						delete.append("rm /system/angeloidteam/dreamnarae/02freqpv;");
+
 						// Mount ro /system
 						delete.append("busybox mount -o ro,remount /system;");
 
@@ -222,6 +234,9 @@ public class Delete_Main extends Fragment {
 						delete2.append("rm /system/etc/init.d/02io;");
 						delete2.append("rm /system/etc/init.d/03freq;");
 						delete2.append("rm /system/etc/init.d/04zipalign;");
+						delete2.append("rm /system/angeloidteam/dreamnarae/00prop;");
+						delete2.append("rm /system/angeloidteam/dreamnarae/01io;");
+						delete2.append("rm /system/angeloidteam/dreamnarae/02freq;");
 
 						//Delete DreamNarae Miracle
 						delete2.append("rm /system/etc/init.d/00set;");
@@ -229,12 +244,19 @@ public class Delete_Main extends Fragment {
 						delete2.append("rm /system/etc/init.d/02vsls;");
 						delete2.append("rm /system/etc/init.d/03dch;");
 						delete2.append("rm /system/etc/init.d/04zip;");
+						delete2.append("rm /system/angeloidteam/dreamnarae/00set;");
+						delete2.append("rm /system/angeloidteam/dreamnarae/01property;");
+						delete2.append("rm /system/angeloidteam/dreamnarae/02vsls;");
+						delete2.append("rm /system/angeloidteam/dreamnarae/03dch;");
 
 						//Delete DreamNarae Save
 						delete2.append("rm /system/etc/init.d/00sp;");
 						delete2.append("rm /system/etc/init.d/01v;");
 						delete2.append("rm /system/etc/init.d/02deep;");
 						delete2.append("rm /system/etc/init.d/03zip;");
+						delete2.append("rm /system/angeloidteam/dreamnarae/00sp;");
+						delete2.append("rm /system/angeloidteam/dreamnarae/01v;");
+						delete2.append("rm /system/angeloidteam/dreamnarae/02deep;");
 
 						// Delete DreamNarae Prev
 						delete2.append("rm /system/etc/init.d/00proppv;");
@@ -244,10 +266,9 @@ public class Delete_Main extends Fragment {
 						delete2.append("rm /system/etc/init.d/04zippv;");
 						delete2.append("rm /system/etc/init.d/01iopv;");
 						delete2.append("rm /system/etc/init.d/02freqpv;");
-						
-						// Delete Backup
-						delete2.append("rm /sdcard/dreamnarae/backup/install-recovery.sh;");
-
+						delete2.append("rm /system/angeloidteam/dreamnarae/00propv;");
+						delete2.append("rm /system/angeloidteam/dreamnarae/01iopv;");
+						delete2.append("rm /system/angeloidteam/dreamnarae/02freqpv;");
 
 						// Mount ro /system
 						delete2.append("busybox mount -o ro,remount /system;");

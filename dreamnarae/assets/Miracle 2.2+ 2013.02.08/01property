@@ -1,0 +1,39 @@
+#!/system/bin/sh
+#==============================================================================
+# DreamNarae Miracle
+# Version 2.2+
+# Made by Rie
+# Edit by Sopiane(http://www.sirospace.com)
+# Colorful Harmony Team- Angeloid Team, inc! 
+# http://www.sirospace.info
+# DO NOT EDIT THIS SCRIPT!
+#==============================================================================
+
+do
+
+  NUMBER_OF_CHECKS=2
+  SLEEP_TIME=3
+  PROCESSES_TOTAL=4
+  CHECK_COUNT=0 
+  P_CHECK=0 
+  PROCESS_1=0
+  PROCESS_2=0
+  PROCESS_3=0
+  PROCESS_4=0
+  
+  # and over. 
+  
+
+  while [ $CHECK_COUNT -lt $NUMBER_OF_CHECKS ];
+  do
+    # System & lst browser
+    if [ $PROCESS_1 -eq "0" ]; then PNAME="com.android.phone"; NICELEVEL=-18; if [ `pidof $PNAME` ]; then renice $NICELEVEL `pidof $PNAME`; PROCESS_1=1; P_CHECK=`expr $P_CHECK + 1`; fi; fi;
+    if [ $PROCESS_2 -eq "0" ]; then PNAME="com.android.systemui"; NICELEVEL=-18; if [ `pidof $PNAME` ]; then renice $NICELEVEL `pidof $PNAME`; PROCESS_2=1; P_CHECK=`expr $P_CHECK + 1`; fi; fi;
+    if [ $PROCESS_3 -eq "0" ]; then PNAME="com.android.settings"; NICELEVEL=-18; if [ `pidof $PNAME` ]; then renice $NICELEVEL `pidof $PNAME`; PROCESS_3=1; P_CHECK=`expr $P_CHECK + 1`; fi; fi;
+    if [ $PROCESS_4 -eq "0" ]; then PNAME="com.android.vending"; NICELEVEL=-18; if [ `pidof $PNAME` ]; then renice $NICELEVEL `pidof $PNAME`; PROCESS_4=1; P_CHECK=`expr $P_CHECK + 1`; fi; fi;  
+
+    # Loop~ Loop~ Loop~
+    if [ $P_CHECK -ge $PROCESSES_TOTAL ]; then CHECK_COUNT=$NUMBER_OF_CHECKS; else sleep $SLEEP_TIME; fi;
+    CHECK_COUNT=`expr $CHECK_COUNT + 1`;
+  done
+done
