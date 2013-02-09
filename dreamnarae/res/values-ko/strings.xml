@@ -140,4 +140,11 @@
     <string name="tab_tab1_alertno">거부</string>
     <string name="install_dlaiogprogress">드림나래를 설치중입니다. 잠시만 기다려주세요.</string>
 <string name="delete_dlaiogprogress">드림나래를 삭제중입니다. 잠시만 기다려주세요.</string>
+<!-- v 1.5 업데이트
+
+[트윅] 일부 트윅 제거(issue 1~2 반영)
+[트윅] run-parts 스크립트 추가
+[트윅] install-recovery.sh 수정
+[어플리케이션] 설치 / 삭제 알고리즘 수정
+[어플리케이션] 한국어 번역 수정(issue 3 반영) -->
 </resources>
