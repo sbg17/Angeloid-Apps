@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PowerAMP Equalizer Z</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="tab_tab2_reboot_no">Not Reboot</string>
+    <string name="tab_tab2_reboot_ok">Auto Reboot</string>
+<string name="eqinfo">Z Equalizer</string>
+<string name="eqmaker">Maker : Professional</string>
+</resources>
