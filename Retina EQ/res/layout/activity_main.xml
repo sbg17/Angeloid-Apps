@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright 2009 - 2013 Colorful Harmony Team- Angeloid Team, Inc
+*
+*   Licensed Under The Apache License, Version 2.0 (The "License");
+ *  You May Not Use This File Except In Compliance With The License.
+*   You May Obtain A Copy Of The License At
+*
+*       Http://Www.Apache.Org/Licenses/License-2.0
+*
+*   Unless Required By Applicable Law Or Agreed To In Writing, Software
+*   Distributed Under The License Is Distributed On An "As Is" Basis,
+  * Without Warranties Or Conditions Of Any Kind, Either Express Or Implied.
+  * See The License For The Specific Language Governing Permissions And
+*   Limitations Under The License. *-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffd9fe" >
+
+        <LinearLayout
+            android:layout_width="32.0dip"
+            android:layout_height="32.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:layout_marginLeft="12.0dip"
+            android:layout_marginTop="8.0dip"
+            android:background="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tabtextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginTop="13.0dip"
+            android:text="@string/app_name"
+            android:textColor="#000000"
+            android:textSize="9pt" />
+    </LinearLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/tab_tab2_spica_usercheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tableRow1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView2"
+            android:src="@drawable/not_apply" />
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" >
+
+            <Button
+                android:id="@+id/tab_tab2_spica_reboot_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_tab2_reboot_no" />
+
+            <Button
+                android:id="@+id/tab_tab2_spica_reboot_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_tab2_reboot_ok" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/eqinfo"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView1"
+            android:text="@string/eqmaker"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+</LinearLayout>
